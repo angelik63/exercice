@@ -1,0 +1,35 @@
+h1{
+    font-size: 40px;
+}
+
+
+.accordion{
+    padding : 30px;
+    box-sizing: border-box;
+}
+
+.accordion__bloc{
+    margin-bottom: 10px;
+}
+
+.accordion__title {
+    background-color: chartreuse;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accordion__answer-bloc{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    background-color: lightgray;
+}
+.accordion__answer{
+    margin:0;
+    padding: 20px;
+}
+.accordion__bloc.active .accordion__answer-bloc{
+    max-height:200px;
+}
+

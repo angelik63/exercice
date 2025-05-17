@@ -13,7 +13,7 @@ h1{
 }
 
 .accordion__title {
-    background-color: chartreuse;
+    background-color: #eeee;
     padding: 10px;
     font-weight: 600;
     cursor: pointer;
